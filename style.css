@@ -1,0 +1,160 @@
+body {
+	margin: 0 2%;
+	background-color: #754e4e;
+	color: #d1a427;
+	font-family: 'Lobster', sans-serif;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+p {
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
+	color: #d1a427;
+	text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+#score {
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
+    text-align: center;
+	color: #d1a427;
+	margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.cersei {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/cersei.png");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.jaime {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/jaime.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.joffrey {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/joffrey.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.myrcella {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/myrcella.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.tommen {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/tommen.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.tyrion {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/tyrion.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.tywin {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/tywin.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.hidden {
+	width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/emblem.jpg");
+	background-size: contain;
+	background-repeat: round;
+	border: 4px solid #4f0606;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-filter: brightness(70%);
+	filter: brightness(70%);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.hidden:hover {
+	border: 4px solid #d1a427;
+	-webkit-filter: brightness(100%);
+	filter: brightness(100%);
+}
+
+.off {
+    width: 150px;
+	height: 200px;
+	display: inline-block;
+	margin: 3px;
+    background-image: none;
+    background-color: #754e4e;
+    border: 4px solid #754e4e;
+	border-radius: 4px;
+}
